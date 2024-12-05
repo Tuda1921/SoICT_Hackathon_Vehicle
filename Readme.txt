@@ -9,6 +9,6 @@ Chỉnh đường dẫn đến folder coco trong file coco8.yaml trong Full_data
     Mở file Run_Result_RT_DETR.py trong folder Result2
     Tinh chỉnh đường dẫn đến weight tốt nhất - best weight - nằm trong Code3\runs\detect\rtdetr_experiment35\weights - ( sau khi train mới có )
   => kết quả được lưu ở Result2
-nên chú ý tham số iou cả khi train và result.py. Các tham số fine tune chính: iou,nms, agnostic nms, conf
+nên chú ý tham số iou cả khi train và khi run result. Các tham số fine tune chính: iou,nms, agnostic nms, conf,lr,batch_size
 
 
